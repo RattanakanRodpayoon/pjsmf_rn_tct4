@@ -1,0 +1,29 @@
+{
+  "name": "rn_tct",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^4.10.0",
+    "react": "16.2.0",
+    "react-native": "0.52.0",
+    "react-native-config": "^0.11.5",
+    "react-native-elements": "^0.19.0",
+    "react-native-navbar": "^2.1.0",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-vector-icons": "^4.5.0",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.1.4",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
